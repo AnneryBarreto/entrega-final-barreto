@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Vista Mobile 0-600 */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    color: white;
+    background-color: #2d2c55;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}

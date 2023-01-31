@@ -1,0 +1,121 @@
+@import "general";
+@import "header";
+@import "texto";
+@import "imagenes";
+@import "footer";
+
+@mixin size ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+main {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.jeff, .info, .row {
+    margin: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    text-align: center;
+    margin: 20px;
+}
+
+.oficial {
+    margin: 15px;
+}
+
+.video {
+    width: 250px;
+}
+
+.main {
+    grid-area: main;
+}
+
+.section {
+    grid-area: section;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.grilla {
+    background-color: #2d2c55;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "main"
+    "section"
+    "footer";
+}
+
+/* Vista Tablet 600-1024 */
+
+@media (min-width: 600px) {
+    .grilla {
+        display: grid;
+    }
+
+    .video {
+        width: 500px;
+    }
+    
+    .temp, .per, .ind {
+        @include size (350px, 300px)
+    }
+}
+
+/* Vista Desktop 1024 */
+
+@media (min-width: 1024px) {
+
+    .grilla {
+        display: grid;
+        justify-items: center;
+    }
+
+    .jeff, .info, .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 70%;
+    }
+
+    .video {
+        width: 450px;
+    }
+    .trailers {
+        margin: 10px 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box:hover {
+        transform: scale(1.15);
+        transition-property: all;
+        transition-duration: 3s;
+    }
+}
+
+.blue {
+    background-color: #252440;
+}
+
+.flex {
+    justify-content: center;
+}

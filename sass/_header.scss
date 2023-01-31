@@ -1,0 +1,26 @@
+header {
+    padding: 5px;
+    background-color: #252440;
+    justify-content: center;
+    text-align: center;
+
+    .logo {
+        height: 200px;
+    }
+    
+    .navbar-light {
+        .navbar-toggler {
+            border-color: white;
+        }
+    }
+        ul {
+            li {
+            list-style-type: none;
+            padding: 20px;
+                a {
+                    text-decoration: none;
+                    font-size: 28px;
+                }
+            }
+        }
+}

@@ -1,0 +1,17 @@
+@mixin size ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+img {
+    @include size (280px, 300px);
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10%;
+}
+
+.creador, .peli {
+    height: 400px;
+}
