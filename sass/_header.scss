@@ -10,13 +10,14 @@ header {
     
     .navbar-light {
         .navbar-toggler {
+            color: white;
             border-color: white;
         }
     }
         ul {
             li {
             list-style-type: none;
-            padding: 20px;
+            padding: 10px;
                 a {
                     text-decoration: none;
                     font-size: 28px;

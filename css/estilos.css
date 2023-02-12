@@ -30,11 +30,12 @@ header .logo {
   height: 200px;
 }
 header .navbar-light .navbar-toggler {
+  color: white;
   border-color: white;
 }
 header ul li {
   list-style-type: none;
-  padding: 20px;
+  padding: 10px;
 }
 header ul li a {
   text-decoration: none;
@@ -54,6 +55,7 @@ h1, h2 {
 
 .subtitulo {
   margin-top: 45px;
+  margin-bottom: 20px;
 }
 
 h3, p {
