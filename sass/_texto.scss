@@ -7,6 +7,7 @@ h1, h2 {
     line-height: 30px;
     letter-spacing: 1px;
     word-spacing: 4px;
+    padding-top: 10px;
 }
 
 .subtitulo {
@@ -22,5 +23,13 @@ h3, p {
     line-height: 30px;
     letter-spacing: 1px;
     word-spacing: 4px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
+.par_ind, .par_cre, .par_ini, .par_sip {
+    padding-left: 20%;
+    padding-right: 20%;
+}
